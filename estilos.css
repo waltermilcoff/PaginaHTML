@@ -14,7 +14,7 @@ body {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: #191970;
+  background-color: #2F4F4F;
   color: #F5F5DC;
 }
 
@@ -54,8 +54,84 @@ body {
 
 .menu a:hover{
   background-color: #FF4500;
-  color: #191970;
+  color: #2F4F4F;
   transition: ease-in .4s;
-  }
+}
 
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 2em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+span{
+  color: #FF4500;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: #FF4500;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 3px 11px -5px rgba(255,069,000,0.69);
+  -moz-box-shadow: 1px 3px 11px -5px rgba(255,069,000,0.69);
+  box-shadow: 1px 3px 11px -5px rgba(255,069,000,0.69);
+}
+
+.download-cv:hover {
+  background-color: #F5F5DC;
+  box-shadow: none;
+}
+
+.main img {
+  border:  7px solid #FF4500;
+  width: 350px;
+  height: 520px;
+  z-index: 1;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+  color: #2F4F4F;
+}
+
+.about img {
+  width: 100%;
+  grid-column: 1/5;
+}
+
+.about-info {
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.about-info h2 {
+  font-size: 4em;
+  color: black;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: #FF4500;
+  margin-top: 5px;
+  margin-bottom: 2em;
+}
+
+.about p {
+  margin-bottom: 1em;
+}
 
