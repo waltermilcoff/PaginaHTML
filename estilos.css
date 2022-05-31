@@ -47,3 +47,15 @@ body {
   text-decoration: none;
   padding: 10px 20px; 
 }
+
+.menu .active {
+  color: #FF4500;
+}
+
+.menu a:hover{
+  background-color: #FF4500;
+  color: #191970;
+  transition: ease-in .4s;
+  }
+
+
