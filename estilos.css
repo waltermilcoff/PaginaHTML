@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -7,11 +7,12 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kanit', sans-serif;
   overflow-x: hidden;
 }
 
-.wrapper {
+.wrapper, 
+.porfolio {
   width: 100vw;
   height: 100vh;
   background-color: #2F4F4F;
@@ -29,7 +30,7 @@ body {
 }
 
 .brand span {
-  color: #FF4500;
+  color: #FF8C00;
 }
 
 .menu {
@@ -49,11 +50,11 @@ body {
 }
 
 .menu .active {
-  color: #FF4500;
+  color: #FF8C00;
 }
 
 .menu a:hover{
-  background-color: #FF4500;
+  background-color: #FF8C00;
   color: #2F4F4F;
   transition: ease-in .4s;
 }
@@ -73,19 +74,19 @@ h1 {
 }
 
 span{
-  color: #FF4500;
+  color: #FF8C00;
 }
 
 .download-cv {
   padding: 10px 20px;
-  background-color: #FF4500;
+  background-color: #FF8C00;
   border: none;
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
-  -webkit-box-shadow: 1px 3px 11px -5px rgba(255,069,000,0.69);
-  -moz-box-shadow: 1px 3px 11px -5px rgba(255,069,000,0.69);
-  box-shadow: 1px 3px 11px -5px rgba(255,069,000,0.69);
+  -webkit-box-shadow: 1px 3px 11px -5px rgba(255,140,000,0.69);
+  -moz-box-shadow: 1px 3px 11px -5px rgba(255,140,000,0.69);
+  box-shadow: 1px 3px 11px -5px rgba(255,140,000,0.69);
 }
 
 .download-cv:hover {
@@ -94,7 +95,7 @@ span{
 }
 
 .main img {
-  border:  7px solid #FF4500;
+  border:  7px solid #FF8C00;
   width: 350px;
   height: 520px;
   z-index: 1;
@@ -126,7 +127,7 @@ span{
 .divider {
   height: 4px;
   width: 60px;
-  background-color: #FF4500;
+  background-color: #FF8C00;
   margin-top: 5px;
   margin-bottom: 2em;
 }
