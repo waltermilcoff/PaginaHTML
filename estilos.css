@@ -11,8 +11,7 @@ body {
   overflow-x: hidden;
 }
 
-.wrapper, 
-.porfolio {
+.wrapper {
   width: 100vw;
   height: 100vh;
   background-color: #2F4F4F;
@@ -39,21 +38,21 @@ body {
   justify-content: space-around;
 }
 
-.menu  li {
+.menu li {
   list-style: none;
 }
 
 .menu a {
   color: #F5F5DC;
   text-decoration: none;
-  padding: 10px 20px; 
+  padding: 10px 20px;
 }
 
 .menu .active {
   color: #FF8C00;
 }
 
-.menu a:hover{
+.menu a:hover {
   background-color: #FF8C00;
   color: #2F4F4F;
   transition: ease-in .4s;
@@ -64,16 +63,16 @@ body {
   width: 80vw;
   height: 80vh;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2em;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
-span{
+span {
   color: #FF8C00;
 }
 
@@ -84,9 +83,9 @@ span{
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
-  -webkit-box-shadow: 1px 3px 11px -5px rgba(255,140,000,0.69);
-  -moz-box-shadow: 1px 3px 11px -5px rgba(255,140,000,0.69);
-  box-shadow: 1px 3px 11px -5px rgba(255,140,000,0.69);
+  -webkit-box-shadow: 1px 3px 11px -5px rgba(255, 140, 000, 0.69);
+  -moz-box-shadow: 1px 3px 11px -5px rgba(255, 140, 000, 0.69);
+  box-shadow: 1px 3px 11px -5px rgba(255, 140, 000, 0.69);
 }
 
 .download-cv:hover {
@@ -95,10 +94,8 @@ span{
 }
 
 .main img {
-  border:  7px solid #FF8C00;
-  width: 350px;
-  height: 520px;
-  z-index: 1;
+  width: 100%;
+  z-index: 0;
 }
 
 .about {
@@ -120,9 +117,9 @@ span{
 }
 
 .about-info h2 {
-  font-size: 4em;
-  color: black;
-}
+  font-size: 3em;
+  color: #2F4F4F;
+  }
 
 .divider {
   height: 4px;
@@ -134,5 +131,78 @@ span{
 
 .about p {
   margin-bottom: 1em;
+}
+
+.portfolio{
+  width: 100vw;
+  background-color: #2F4F4F;
+  color: #fff;
+}
+
+.portfolio-headings {
+  width: 100vw;
+  padding: 5em;
+}
+
+.portfolio-headings h2 {
+font-size: 3em;
+}
+
+.portfolio .container {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #08193d;
+ color: #fff;
+ height: 400px;
+}
+
+.card__img{
+  width: 100%;
+  height: 150px;
+  background-image: url(img/proyectDescription.jpg);
+  background-size: cover;
+}
+
+.card__title {
+  padding: 20px;
+}
+
+.card__project-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card__project-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card__project-links i {
+  font-size: 1.5em;
+}
+
+.card .project-details {
+  margin: 0 auto;
+  margin: 1em;
+  width: 70%;
+} 
+
+.card .project-details a{
+  text-decoration: none;
+  color: #2F4F4F;
+  text-transform: uppercase;
+}
+
+.project-details-content{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1em;
 }
 
