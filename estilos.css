@@ -207,7 +207,7 @@ span {
   margin-top: 1em;
 }
 
-.contact-section{
+.contact-section {
   padding: 3em;
   background-color: #2F4F4F;
   color: #fff;
@@ -215,14 +215,14 @@ span {
 
 .contact-headings h2 {
   font-size: 3em;
- }
+}
 
 .container-contact {
   padding: 3em;
   margin: 0 auto;
 }
 
-.formulario{
+.formulario {
   display: flex;
   flex-direction: column;
   width: 30vw;
@@ -257,7 +257,7 @@ span {
 
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
   background-color: #fff;
 }
 
@@ -268,6 +268,55 @@ span {
   align-items: center;
   width: 100vw;
   height: 200px;
-  padding: 2em;
   background-color: #FF8C00;
+}
+
+.footer-content h2 {
+  font-size: 3em;
+}
+
+.footer-content h5 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+}
+
+.social-network i {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.social-network i:hover{
+  background-color: #b96f0e;
+}
+
+.main-masSobreMi {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2em;
+}
+
+.main-masSobreMi img {
+  width: 75%;
+  z-index: 0;
+}
+
+.main-tecnologiasYlenguajes{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2em;
 }
