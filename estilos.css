@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  text-align: justify;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
 
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   background-color: #2F4F4F;
   color: #F5F5DC;
 }
@@ -164,7 +166,7 @@ span {
 .card__img {
   width: 100%;
   height: 100%;
-  background-image: url(img/imagenMundoWeb.jpg);
+  background-image: url(img/ima.jpg);
   background-size: cover;
 }
 
@@ -270,11 +272,11 @@ span {
 }
 
 .footer-content h2 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .footer-content h5 {
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -337,13 +339,12 @@ span {
 .ContenedorDeLosLenguajes {
   margin: 2em;
   width: 95%;
-  height: 650vh;
+  height: 400vh;
   display: block;
 }
 
-.ContenedorDeLosLenguajes img {
-  margin: 2em;
-
+.ContenedorDeLosLenguajes h2 {
+  margin-top: 2em;
 }
 
 .main-cursos {
@@ -360,7 +361,7 @@ span {
   margin: 3em;
 }
 
-.OTROS{
+.OTROS {
   margin: 3em;
 }
 
