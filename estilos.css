@@ -161,7 +161,7 @@ span {
 
 .main img {
   width: 100%;
-  z-index: 0;
+  
 }
 
 .about {
@@ -298,7 +298,6 @@ span {
   text-align-last: center;
 }
 
-
 .main-cursos {
   margin: 2;
   width: 100%;
@@ -315,4 +314,15 @@ span {
 
 .OTROS {
   margin: 3em;
+}
+
+.Imagenes-Cursos {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+
+.Imagenes-Cursos img {
+width: 100%;
 }
