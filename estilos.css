@@ -184,6 +184,7 @@ span {
 
 .contact-headings h2 {
     font-size: 3em;
+    text-align: left;
 }
 
 .container-contact {
@@ -198,7 +199,7 @@ span {
     margin-top: 2em;
 }
 
-.formulario input {
+.formulario .input {
     padding: 10px 20px;
     margin-bottom: 1em;
     background: none;
@@ -207,7 +208,7 @@ span {
     color: #fff;
 }
 
-.formulario textarea {
+.formulario .textarea {
     height: 150px;
     padding: 1.5em;
     background: none;
